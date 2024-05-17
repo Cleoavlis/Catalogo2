@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fundo.jpg);
+    background-size: cover; /* Esta propriedade faz com que a imagem cubra toda a área disponível */
+    background-repeat: no-repeat; /* Isso impede que a imagem se repita */
+    background-position: center; /* Isso centraliza a imagem na tela */
+}
+
+header {
+    background-color:  rgba(129, 119, 119, 0.6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.catalog-item {
+   width: calc(23.24% - 10px); /* Define a largura de cada produto (33.33% do contêiner) com um pequeno espaço entre eles */
+    margin-bottom: 20px; /* Espaçamento inferior entre os produtos */
+    color: black;
+    font-weight: bold;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden; /* Para garantir que imagens maiores não transbordem */
+    display: flex; /* Para centralizar verticalmente o conteúdo */
+    flex-direction: column; /* Alinhe o conteúdo verticalmente */
+    background: rgb(129, 119, 119, 0.6);
+   }
+
+.catalog-item img {
+    max-width: 100%;
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura do contêiner */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+
+
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os produtos quebrem para a próxima linha quando não houver espaço suficiente */
+    justify-content: space-between; /* Alinha os produtos horizontalmente com espaçamento uniforme */
+}
+
+
+a {
+    text-decoration: none;
+}
+a {
+    color:rgb(242, 224, 224); /* Defina a cor desejada */
+    font-weight: bold;
+    padding: auto;
+
+}.menu {
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(129, 119, 119, 0.6); /* Cor de fundo do menu */
+    margin-top: 10px;
+
+}
+
+.menu li {
+    display: inline-block; /* Exibe os itens do menu horizontalmente */
+}
+
+.menu li a {
+    font-size: 90%;
+    display: block;
+    padding: 10px 20px; /* Adiciona espaçamento interno aos itens do menu */
+    text-decoration: none;
+    color: #fff; /* Cor do texto dos itens do menu */
+
+}
+
+.menu li a:hover {
+    background-color: #555; /* Cor de fundo do item do menu quando passa o mouse por cima */
+}
+footer{
+    background-color: grey;
+}
+h2 img{
+width: 5%;
+}
+button{
+    border-radius: 10px;
+    background-color: #c8c0c0;
+    color: #fff;
+}
+button:hover{
+    background-color: #989191;
+}
+cart li{
+
+     color: #fff;
+}
+div{
+    color: black;
+    font-weight: bold;
+}
+nav{
+    display: flexbox;
+    justify-content: center
+}

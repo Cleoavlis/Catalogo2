@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos</title>
+
+    <link rel="stylesheet" href="catalogo.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Produtos</h1>
+    </header>
+  
+    <nav>
+        <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SOBRE</a></li>
+            <li><a href="#cart-link">CARRINHO</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="catalog" class="catalog-container"></div>
+    </main>
+  
+
+          
+    <div id="cart">
+        <h2 id="cart-link"> 
+            <img src="carrinho-de-compras.png" alt="carrinho-de-compras">
+            CARRINHO
+        </h2>
+        <ul id="cart-items"></ul>
+        <p>Total: R$ <span id="cart-total">0.00</span></p>
+        <button id="send-order">Enviar Pedido via WhatsApp</button>
+    </div>
+  
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+    <script src="catalogo.js"></script>
+</body>
+</html>
